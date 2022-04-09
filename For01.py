@@ -1,7 +1,8 @@
-import py_compile
-
-
 def main(n):
+    rr=[]
+    for x in range(n):
+        rr.append(x)
+    return rr
     """
     Return numbers from zero to n in a list view.
     Args:
@@ -9,4 +10,4 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+  
