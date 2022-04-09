@@ -1,11 +1,11 @@
 def main(n):
-    rr='"'
+    rr=''
     for x in range(n-1):
         rr +=str(x)
         rr +=','
     
     rr +=str(n-1)
-    rr +='"'
+    #rr +='"'
     return rr
     """
     Return numbers from zero to n in a string view.
