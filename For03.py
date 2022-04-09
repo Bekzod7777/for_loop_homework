@@ -12,4 +12,3 @@ def main(k,n):
         list: return  answer
     """
     return  rr
-print(main(5,3))
