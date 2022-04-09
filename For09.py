@@ -1,4 +1,9 @@
 def main(price):
+    
+    r=[]
+    for x in range(1,11):
+        aa=price*x
+        r.append(aa)
     """
     The price of a kilogram of sweets is given. Return the price of a dessert from one to ten kg in the form of a list.
     Args:
@@ -6,4 +11,4 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    return  r
