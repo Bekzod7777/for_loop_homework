@@ -1,8 +1,10 @@
 def main(n):
     rr='"'
-    for x in range(n):
+    for x in range(n-1):
         rr +=str(x)
         rr +=','
+    
+    rr +=str(n-1)
     rr +='"'
     return rr
     """
@@ -12,4 +14,4 @@ def main(n):
     Returns:
         string: return  answer
     """
-
+print(main(10))
